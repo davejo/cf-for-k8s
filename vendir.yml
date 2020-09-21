@@ -8,7 +8,7 @@ directories:
   - path: .
     git:
       url: https://github.com/cloudfoundry/capi-k8s-release
-      ref: secure-cf-api-internal-endpoints-174455375
+      ref: 2a80876d2110d7d2fbb9fcaac48052c263e9e987
     includePaths:
     - templates/**/*
     - values/**/*

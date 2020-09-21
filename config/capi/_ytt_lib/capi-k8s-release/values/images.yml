@@ -1,11 +1,9 @@
 #@data/values
 ---
 images:
-  ccng: cloudfoundry/cloud-controller-ng@sha256:cacb91272670f98a1135c0964719bca02befc75f063477afa5bb2d70a5c3b8e7
-  cf_api_controllers: cloudfoundry/cf-api-controllers@sha256:9cd6557f411c42b2bafe8487f63fae608f0dafd9f56c4268de8ec6fcd88ff7d9
+  ccng: cloudfoundry/cloud-controller-ng@sha256:ecc830eee5eb502051724268a96ad0641a8f5537e377e3a634b19aef5c98a5b8
+  cf_api_controllers: cloudfoundry/cf-api-controllers@sha256:daf6ec9f458f5ea16a23b8e95408825c574fdb6af4d0fde47e25393278ad2c94
   cf_autodetect_builder: cloudfoundry/cnb:0.0.94-bionic@sha256:5b03a853e636b78c44e475bbc514e2b7b140cc41cca8ab907e9753431ae8c0b0
-  nginx: cloudfoundry/capi-nginx@sha256:980f50e190cbff72d23300bc422da23faa888271c2d07ac3abaa65af55a5316a
+  nginx: cloudfoundry/capi-nginx@sha256:25997cca011ed0761955754a68931f7b1694e487bffba73c6ac8dbcd084f5dee
   package_image_uploader: cloudfoundry/cf-api-package-image-uploader@sha256:aae727a0960d10ce644035dee7041f7e882c7c58a37992252002ce7c95d8804d
   statsd_exporter: oratos/statsd_exporter:v0.15.0@sha256:10a64dc4ad0a3e3fe88372f0481dea5c02595c38d168617836a99a649d3ac407
-kbld:
-  destination: null

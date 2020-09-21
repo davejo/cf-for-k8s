@@ -2,8 +2,8 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - git:
-      commitTitle: prevent access to internal cf-api endpoints...
-      sha: 282418aa63f4cb4e724087c414973e00538bf783
+      commitTitle: Make CC log level configurable...
+      sha: 2a80876d2110d7d2fbb9fcaac48052c263e9e987
     path: .
   path: config/capi/_ytt_lib/capi-k8s-release
 - contents:
